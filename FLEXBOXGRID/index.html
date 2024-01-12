@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 002</title>
+    <link href="css/flexboxgrid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div class="row">
+    Los elementos deben estar incluidos dentro de una fila
+        las posibilidades de clases son: para smartphone
+        <div class="col-xs-12">1</div>
+        para tablet
+        <div class="col-sm-8">2</div>
+        para laptop
+        <div class="col-md-6">3</div>
+        para desktop o televisor. El número es la cantidad de columnas que requiere cada una
+        <div class="col-lg-4">4</div>
+        <div class="box">Responsive</div>
+    </div> -->
+
+    <!--La primera indicacion es que necesitamos una row, estas clases ya están creadas en la libreria pero sí le indicamos que se centre en las resoluciones.
+    Si queremos que se centre en todas las resoluciones, es suficiente con indicar la inferior (xs)-->
+    <div class="row center-xs"> 
+        <!--como en la resolución media y en la resolución xsmall, el header va a ocupar 12 columnas, con indicar solo la inferior es suficiente-->
+        <header class="col-xs-12">header</header>
+        <!--en la resolución media y en la resolución xsmall, el nav va a ocupar 2 columnas-->
+        <nav class="col-xs-12 col-md-2">nav</nav>
+        <!--en la resolución media y en la resolución xsmall, el section va a ocupar 8 columnas-->
+        <section class="col-xs-12 col-md-8">section</section>
+        <!--en la resolución media y en la resolución xsmall, el nav va a ocupar 2 columnas-->
+        <aside class="col-xs-12 col-md-2">aside</aside>
+        <!--como en la resolución media y en la resolución xsmall, el footer va a ocupar 12 columnas, con indicar solo la inferior es suficiente-->
+        <footer class="col-xs-12 col-md-12">footer</footer>
+    </div>
+</body>
+
+</html>
